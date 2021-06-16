@@ -1,5 +1,8 @@
 package org.itstack.demo.design;
 
+/**
+ * 懒汉模式(线程不安全)
+ */
 public class Singleton_01 {
 
     private static Singleton_01 instance;
