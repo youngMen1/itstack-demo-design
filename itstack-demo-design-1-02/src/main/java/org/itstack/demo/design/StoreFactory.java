@@ -5,6 +5,9 @@ import org.itstack.demo.design.store.impl.CardCommodityService;
 import org.itstack.demo.design.store.impl.CouponCommodityService;
 import org.itstack.demo.design.store.impl.GoodsCommodityService;
 
+/**
+ * 创建商店工厂
+ */
 public class StoreFactory {
 
     public ICommodity getCommodityService(Integer commodityType) {
